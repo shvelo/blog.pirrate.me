@@ -1,2 +1,2 @@
-Captain's log
+Captain's changelog
 ===============
