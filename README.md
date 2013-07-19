@@ -1,4 +1,2 @@
-blog.pirrate.me
+Captain's log
 ===============
-
-Me blog!
