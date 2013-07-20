@@ -139,6 +139,10 @@ h6 { font-size: 20pt; }
   padding: 1em;
 }
 
+#container #content .post .highlight {
+  font-size: 12pt;
+}
+
 #container #content .post .gist {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -147,5 +151,4 @@ h6 { font-size: 20pt; }
 #container #content .post .gist .highlight {
   width: 100%;
   overflow-x: auto;
-  font-size: 12pt;
 }
