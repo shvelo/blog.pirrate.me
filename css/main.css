@@ -88,6 +88,10 @@ h6 { font-size: 20pt; }
   color: #2E2E2E;
 }
 
+#container #header #nav ul li a:hover {
+  color: black;
+}
+
 #container #content {
   max-width: 960px;
   margin: 0 auto;
