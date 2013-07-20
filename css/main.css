@@ -21,6 +21,7 @@ html {
 body {
   color: #5A5C5E;
   font-family: sans-serif;
+  font-size: 16pt;
 }
 
 a {
@@ -38,12 +39,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .1em;
 }
 
-h1 { font-size: 40pt; }
-h2 { font-size: 36pt; }
-h3 { font-size: 32pt; }
-h4 { font-size: 28pt; }
-h5 { font-size: 24pt; }
-h6 { font-size: 20pt; }
+h1 { font-size: 3.5em; }
+h2 { font-size: 3.2em }
+h3 { font-size: 2.9em }
+h4 { font-size: 2.6em }
+h5 { font-size: 2.3em }
+h6 { font-size: 2em }
 
 #container {
   max-width: 900px;
@@ -58,7 +59,7 @@ h6 { font-size: 20pt; }
 
 #container #header h1 {
   color: #3a454c;
-  font-size: 5em;
+  font-size: 4em;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -135,7 +136,7 @@ h6 { font-size: 20pt; }
 }
 
 #container #content .post .content {
-  font-size: 16pt;
+  font-size: 1em;
 }
 
 #container #content .post .content p {
@@ -147,7 +148,7 @@ h6 { font-size: 20pt; }
 }
 
 #container #content .post .highlight {
-  font-size: 12pt;
+  font-size: .8em;
 }
 
 #container #content .post .gist {
@@ -162,83 +163,65 @@ h6 { font-size: 20pt; }
 
 #container #content .post .more {
   display: block;
-  font-size: 16pt;
   margin-top: .3em;
 }
 
+@media (max-width: 60em) {
+  #container #header h1 {
+    font-size: 4em;
+  }
+}
+
+@media (max-width: 50em) {
+  #container #header h1 {
+    font-size: 3.7em;
+  }
+}
+
 @media (max-width: 45em) {
-  h1 { font-size: 32pt; }
-  h2 { font-size: 30pt; }
-  h3 { font-size: 28pt; }
-  h4 { font-size: 26pt; }
-  h5 { font-size: 24pt; }
-  h6 { font-size: 22pt; }
+  body {
+    font-size: 13pt;
+  }
+
+  #container #header h1 {
+    font-size: 3.7em;
+  }
 
   #container {
     padding: 0 1em;
   }
-
-  #container #header h1 {
-    font-size: 4em;
-  }
-
-  #container #content .post .title {
-    font-size: 2.8em;
-  }
-
-  #container #content .post .content, #container #content .post .more {
-    font-size: 12pt;
-  }
 }
 
 @media (max-width: 35em) {
-  #container #header h1 {
-    font-size: 3em;
+  body {
+    font-size: 11pt;
   }
 
-  #container #content .post .title {
-    font-size: 2.8em;
+  #container #header h1 {
+    font-size: 3.5em;
   }
 }
 
 @media (max-width: 27em) {
+  body {
+    font-size: 10pt;
+  }
   #container #header h1 {
-    font-size: 2.5em;
-  }
-
-  #container #header #nav ul li a {
-    font-size: 2em;
-  }
-
-  #container #content .post .title {
-    font-size: 2em;
+    font-size: 3.3em;
   }
 }
 
 @media (max-width: 20em) {
+  body {
+    font-size: 8pt;
+  }
   #container #header h1 {
-    font-size: 2em;
-  }
-
-  #container #header #nav ul li a {
-    font-size: 1.8em;
-  }
-
-  #container #content .post .title {
-    font-size: 1.7em;
+    font-size: 3em;
   }
 }
 
 @media (max-width: 15em) {
-  #container #header h1 {
-    font-size: 1.6em;
-  }
-
-  #container #header #nav ul li a {
-    font-size: 1.6em;
-  }
-
-  #container #content .post .title {
-    font-size: 1.6em;
+  body {
+    font-size: 10pt;
   }
 }
