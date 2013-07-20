@@ -41,7 +41,8 @@ h5 { font-size: 24pt; }
 h6 { font-size: 20pt; }
 
 #container {
-  margin: 0 2em 0 2em;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 #container #header {
@@ -85,7 +86,7 @@ h6 { font-size: 20pt; }
 
 #container #header #nav ul li a {
   font-size: 3em;
-  color: #2E2E2E;
+  color: #6B6B6B;
 }
 
 #container #header #nav ul li a:hover {
@@ -93,8 +94,6 @@ h6 { font-size: 20pt; }
 }
 
 #container #content {
-  max-width: 960px;
-  margin: 0 auto;
 }
 
 #container #content .posts {
