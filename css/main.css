@@ -100,7 +100,6 @@ h6 { font-size: 20pt; }
 
 #container #content .post {
   padding-bottom: 2em;
-  position: relative;
 }
 
 #container #content .posts .post {
@@ -114,16 +113,20 @@ h6 { font-size: 20pt; }
   text-align: center;
 }
 
+#container #content .posts .post .title {
+  text-align: left;
+}
+
 #container #content .post .title a {
   color: #636363;
 }
 
 #container #content .post .title a small {
-  position: absolute;
   right: 0;
   font-size: 60%;
-  color: #686868;
-  line-height: 2em;
+  color: #999999;
+  margin-left: .5em;
+  vertical-align: middle;
 }
 
 #container #content .post p {
