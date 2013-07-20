@@ -1,2 +1,9 @@
 name: Captain's Changelog
 pygments: true
+timezone: Asia/Tbilisi
+relative_permalinks: true
+permalink: /:year/:title
+markdown: maruku
+baseurl: /
+url: http://blog.pirrate.me
+excerpt_separator: "\n\n"

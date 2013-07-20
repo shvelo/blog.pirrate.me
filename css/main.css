@@ -1,165 +1,114 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
+@font-face {
+  font-family: "Freebooter Regular";
+  src: url("../font/Freebooter Regular.ttf");
 }
 
-html, body { height: 100%; }
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  background: #fffef0;
+}
 
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
+  color: #5A5C5E;
+  font-family: sans-serif;
+}
+
+a {
+  color: #5580b5;
+  text-decoration: none;
+  transition: color .5s;
+}
+a:hover {
+  color: #88a6cb;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
-
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
-
-table {
-  font-size: inherit;
-  font: 100%;
+  font-family: "Freebooter Regular", sans-serif;
 }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
+#container {
+  margin: 0 2em 0 2em;
 }
 
-ul.posts li {
-  line-height: 1.75em;
+#container #header {
+  font-family: "Freebooter Regular", sans-serif;
+  text-align: center;
 }
 
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+#container #header h1 {
+  color: #3a454c;
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: .1em;
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
+#container #header h1 a {
+  color: #3a454c;
 }
 
-.site .header a {
-  font-weight: bold;
-  text-decoration: none;
+
+#container #header h1 img {
+  width: 1em;
+  margin-right: .1em;
+  vertical-align: middle;
 }
 
-.site .header h1.title {
+#container #header h1 small {
+  font-size: 0.9em;
+  color: #bac4cb;
+}
+
+#container #header #nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#container #header #nav ul li {
   display: inline-block;
-  margin-bottom: 2em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
-.site .header h1.title a {
-  color: #a00;
+#container #header #nav ul li a {
+  font-size: 3em;
 }
 
-.site .header h1.title a:hover {
-  color: #000;
+#container #content {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-.site .header a.extra {
-  color: #aaa;
-  margin-left: 1em;
+#container #content .posts .post {
+  margin-bottom: 1em;
+  position: relative;
 }
 
-.site .header a.extra:hover {
-  color: #000;
+#container #content .posts .post h1 {
+  margin-top: .1em;
+  margin-bottom: .1em;
+  font-size: 3em;
+  text-align: center;
 }
 
-.site .meta {
-  color: #aaa;
+#container #content .posts .post h1 a {
+  color: #636363;
 }
 
-.site .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
+#container #content .posts .post h1 a small {
+  position: absolute;
+  right: 0;
+  font-size: 60%;
+  color: #686868;
+  line-height: 2em;
 }
 
-.site .footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.site .footer .contact a {
-  color: #8085C1;
-}
-
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.site .footer .rss img {
-  border: 0;
-}
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
+#container #content .posts .post p {
+  margin: 0;
+  font-size: 15pt;
 }
