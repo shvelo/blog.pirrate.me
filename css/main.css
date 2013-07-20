@@ -53,13 +53,12 @@ h6 { font-size: 20pt; }
   color: #3a454c;
   font-size: 5em;
   margin-top: 0;
-  margin-bottom: .1em;
+  margin-bottom: 0;
 }
 
 #container #header h1 a {
   color: #3a454c;
 }
-
 
 #container #header h1 img {
   width: 1em;
@@ -80,12 +79,13 @@ h6 { font-size: 20pt; }
 
 #container #header #nav ul li {
   display: inline-block;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 #container #header #nav ul li a {
   font-size: 3em;
+  color: #2E2E2E;
 }
 
 #container #content {
@@ -111,10 +111,6 @@ h6 { font-size: 20pt; }
   margin-bottom: .1em;
   font-size: 3em;
   text-align: center;
-}
-
-#container #content .posts .post .title {
-  text-align: left;
 }
 
 #container #content .post .title a {
