@@ -160,3 +160,80 @@ h6 { font-size: 20pt; }
   font-size: 16pt;
   margin-top: .3em;
 }
+
+@media (max-width: 45em) {
+  h1 { font-size: 32pt; }
+  h2 { font-size: 30pt; }
+  h3 { font-size: 28pt; }
+  h4 { font-size: 26pt; }
+  h5 { font-size: 24pt; }
+  h6 { font-size: 22pt; }
+
+  #container {
+    padding: 0 1em;
+  }
+
+  #container #header h1 {
+    font-size: 4em;
+  }
+
+  #container #content .post .title {
+    font-size: 2.8em;
+  }
+
+  #container #content .post .content, #container #content .post .more {
+    font-size: 12pt;
+  }
+}
+
+@media (max-width: 35em) {
+  #container #header h1 {
+    font-size: 3em;
+  }
+
+  #container #content .post .title {
+    font-size: 2.8em;
+  }
+}
+
+@media (max-width: 27em) {
+  #container #header h1 {
+    font-size: 2.5em;
+  }
+
+  #container #header #nav ul li a {
+    font-size: 2em;
+  }
+
+  #container #content .post .title {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 20em) {
+  #container #header h1 {
+    font-size: 2em;
+  }
+
+  #container #header #nav ul li a {
+    font-size: 1.8em;
+  }
+
+  #container #content .post .title {
+    font-size: 1.7em;
+  }
+}
+
+@media (max-width: 15em) {
+  #container #header h1 {
+    font-size: 1.5em;
+  }
+
+  #container #header #nav ul li a {
+    font-size: 1.3em;
+  }
+
+  #container #content .post .title {
+    font-size: 1.3em;
+  }
+}
