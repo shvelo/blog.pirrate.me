@@ -29,7 +29,16 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Freebooter Regular", sans-serif;
+  margin-top: .1em;
+  margin-bottom: .1em;
 }
+
+h1 { font-size: 40pt; }
+h2 { font-size: 36pt; }
+h3 { font-size: 32pt; }
+h4 { font-size: 28pt; }
+h5 { font-size: 24pt; }
+h6 { font-size: 20pt; }
 
 #container {
   margin: 0 2em 0 2em;
@@ -89,18 +98,18 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-#container #content .post h1 {
+#container #content .post .title {
   margin-top: .1em;
   margin-bottom: .1em;
   font-size: 3em;
   text-align: center;
 }
 
-#container #content .post h1 a {
+#container #content .post .title a {
   color: #636363;
 }
 
-#container #content .post h1 a small {
+#container #content .post .title a small {
   position: absolute;
   right: 0;
   font-size: 60%;
