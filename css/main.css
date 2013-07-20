@@ -95,11 +95,16 @@ h6 { font-size: 20pt; }
 
 #container #content .posts {
   margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 #container #content .post {
-  margin-bottom: 1em;
+  padding-bottom: 2em;
   position: relative;
+}
+
+#container #content .posts .post {
+ padding-bottom: 1em;
 }
 
 #container #content .post .title {
@@ -132,4 +137,15 @@ h6 { font-size: 20pt; }
 
 #container #content .post pre {
   padding: 1em;
+}
+
+#container #content .post .gist {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#container #content .post .gist .highlight {
+  width: 100%;
+  overflow-x: auto;
+  font-size: 12pt;
 }
