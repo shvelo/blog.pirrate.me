@@ -43,6 +43,7 @@ h6 { font-size: 20pt; }
 #container {
   max-width: 900px;
   margin: 0 auto;
+  padding: 0 2em;
 }
 
 #container #header {
@@ -117,6 +118,7 @@ h6 { font-size: 20pt; }
 
 #container #content .post .title a {
   color: #636363;
+  text-transform: capitalize;
 }
 
 #container #content .post .title a small {
@@ -151,4 +153,10 @@ h6 { font-size: 20pt; }
 #container #content .post .gist .highlight {
   width: 100%;
   overflow-x: auto;
+}
+
+#container #content .post .more {
+  display: block;
+  font-size: 16pt;
+  margin-top: .3em;
 }
