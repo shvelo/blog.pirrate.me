@@ -37,7 +37,7 @@ Text
 def ruby_code
 	puts "Ruby code"
 end
-{% end %}
+{% endhighlight %}
 
 List
 
