@@ -21,7 +21,7 @@ html {
 body {
   color: #5A5C5E;
   font-family: sans-serif;
-  font-size: 16pt;
+  font-size: 15pt;
 }
 
 a {
@@ -63,7 +63,7 @@ h6 { font-size: 1.4em }
 
 #container #header h1 {
   color: #3a454c;
-  font-size: 4em;
+  font-size: 5em;
   margin-top: 0;
   margin-bottom: 0;
 }
