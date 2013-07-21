@@ -43,8 +43,29 @@ def ruby_code
 end
 {% endhighlight %}
 
-List
+{% highlight c++ %}
+// Blink
+
+void setup() {
+	pinnMode(13, OUTPUT);
+}
+
+void loop() {
+	digitalWrite(13, HIGH);
+	delay(500);
+	digitalWrite(13, LOW);
+	delay(500);
+}
+{% endhighlight %}
+
+Unordered List
 
 - Item 1
 - Item 2
 - Item 3
+
+Ordered List
+
+1. Item 1
+2. Item 2
+3. Item 3
