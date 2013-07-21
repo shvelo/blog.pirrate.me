@@ -238,16 +238,7 @@ h6 { font-size: 1.4em }
 }
 
 @media (max-width: 20em) {
-  body {
-    font-size: 8pt;
-  }
   #container #header h1 {
     font-size: 3em;
-  }
-}
-
-@media (max-width: 15em) {
-  body {
-    font-size: 10pt;
   }
 }
