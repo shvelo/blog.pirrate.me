@@ -12,4 +12,4 @@ puts "Hello Wold!"
 I promise I'll write about interesting stuff like coding and electronic tinkering.   
 I have a few Arduinos and will be making awesome projects.
 
-#### Smooth Sailin'!
+# Smooth Sailin'!
