@@ -213,9 +213,15 @@ h6 { font-size: 1.4em }
     font-size: 3.7em;
   }
 
+  #container #header h1 small {
+    display: none;
+  }
+
   #container {
     padding: 0 1em;
   }
+
+
 }
 
 @media (max-width: 35em) {
