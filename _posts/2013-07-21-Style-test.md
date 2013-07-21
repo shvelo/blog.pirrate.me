@@ -3,6 +3,10 @@ layout: post
 title: "Style test"
 ---
 
+Testing styles
+
+<!--more-->
+
 Regular paragraph
 
 # Heading 1
@@ -29,8 +33,8 @@ Paragraph
 
 Text
 
-> Quote
-> Line2
+> Quote  
+> Line2  
 > Line3
 
 {% highlight ruby %}
