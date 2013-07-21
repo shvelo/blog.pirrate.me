@@ -158,11 +158,15 @@ h6 { font-size: 2em }
 #container #content .post .content ul {
   padding-left: 1.5em;
   list-style-type: square;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 #container #content .post .content ol {
   padding-left: 1.5em;
   list-style-type: decimal;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 #container #content .post .highlight {
