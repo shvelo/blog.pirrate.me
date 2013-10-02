@@ -4,7 +4,7 @@ pygments: true
 timezone: Asia/Tbilisi
 relative_permalinks: true
 permalink: /:year/:title
-markdown: kramdown
+markdown: maruku
 baseurl: /
 url: http://blog.pirrate.me
 excerpt_separator: "<!--more-->"
