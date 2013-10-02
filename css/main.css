@@ -196,7 +196,8 @@ pre {
 #container #footer .whoami {
   width: 70%;
   float: left;
-  overflow: hidden;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 #container #footer pre {
