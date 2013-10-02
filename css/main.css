@@ -205,7 +205,8 @@ pre {
 }
 
 #container #footer .highlight a {
-  color: #B58900;
+  text-decoration: underline;
+  color: inherit;
 }
 
 #container #footer .links {
