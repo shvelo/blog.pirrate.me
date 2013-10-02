@@ -116,7 +116,6 @@ pre {
 }
 
 #container #content .posts {
-  margin-bottom: 1em;
 }
 
 #container #content .post {
@@ -201,6 +200,11 @@ pre {
 
 #container #footer pre {
   margin: 0;
+}
+
+#container #footer .highlight a {
+  color: #000;
+  text-decoration: underline;
 }
 
 #container #footer .links {
