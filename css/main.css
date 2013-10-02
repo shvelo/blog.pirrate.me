@@ -50,6 +50,14 @@ h4 { font-size: 1.8em }
 h5 { font-size: 1.4em }
 h6 { font-size: 1.4em }
 
+pre {
+  padding: 1em;
+}
+
+.highlight {
+  font-size: .8em;
+}
+
 #container {
   max-width: 900px;
   margin: 0 auto;
@@ -145,10 +153,6 @@ h6 { font-size: 1.4em }
   margin: 0;
 }
 
-#container #content .post pre {
-  padding: 1em;
-}
-
 #container #content .post .content blockquote {
   border-left: 3px solid #7C7C7C;
   margin: .5em 0;
@@ -171,10 +175,6 @@ h6 { font-size: 1.4em }
   margin-bottom: .5em;
 }
 
-#container #content .post .highlight {
-  font-size: .8em;
-}
-
 #container #content .post .gist {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -188,6 +188,30 @@ h6 { font-size: 1.4em }
 #container #content .post .more {
   display: block;
   margin-top: .3em;
+}
+
+#container #footer {
+  padding-bottom: .5em;
+}
+
+#container #footer .whoami {
+  width: 70%;
+  float: left;
+}
+
+#container #footer pre {
+  margin: 0;
+}
+
+#container #footer .links {
+  width: 30%;
+  float: left;
+}
+
+#container #footer .links a {
+  display: block;
+  padding: 0.2em 1em;
+  color: #2d2d2d;
 }
 
 @media (max-width: 60em) {
