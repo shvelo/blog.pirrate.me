@@ -201,6 +201,7 @@ pre {
 
 #container #footer pre {
   margin: 0;
+  line-height: 1.4;
 }
 
 #container #footer .highlight a {
