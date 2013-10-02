@@ -213,8 +213,12 @@ pre {
 
 #container #footer .links a {
   display: block;
-  padding: 0.3em 1em;
+  padding: 0.2em 1em;
   color: #2d2d2d;
+}
+
+#container #footer .links a i {
+  width: 1em;
 }
 
 @media (max-width: 60em) {
