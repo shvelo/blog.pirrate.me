@@ -243,7 +243,11 @@ pre {
     padding: 0 1em;
   }
 
-
+  #container #footer .whoami, #container #footer .links {
+    float: none;
+    margin-bottom: .5em;
+    width: auto;
+  }
 }
 
 @media (max-width: 35em) {
