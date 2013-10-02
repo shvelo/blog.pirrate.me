@@ -196,7 +196,6 @@ pre {
 #container #footer .whoami {
   width: 70%;
   float: left;
-  white-space: pre-wrap;
   word-wrap: break-word;
 }
 
