@@ -4,7 +4,7 @@
 	<title>{{ page.title }}</title>
 	<meta content="width=device-width,initial-scale=1" name="viewport">
 	{% if page.excerpt %}
-	<meta content="{{page.excerpt}}" name="description">
+	<meta content="{{page.excerpt | escape}}" name="description">
 	{% else %}
 	<meta content="{{site.description}}" name="description">
 	{% endif %}
@@ -20,16 +20,6 @@
 					<small>Captain </small><img src="{{site.baseurl}}img/pirate.png" />Nick Shvelidze
 				</a>
 			</h1>
-			<div id="nav">
-				<ul>
-					<li class="active">
-						<a href="{{site.baseurl}}">Blog</a>
-					</li>
-					<li>
-						<a href="http://pirrate.me">Homeport</a>
-					</li>
-				</ul>
-			</div>
 		</div>
 		<div id="content">
 			{{ content }}
