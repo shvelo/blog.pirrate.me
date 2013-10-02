@@ -203,7 +203,7 @@ pre {
 }
 
 #container #footer .highlight a {
-  color: #000;
+  color: inherit;
   text-decoration: underline;
 }
 
