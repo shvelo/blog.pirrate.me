@@ -2,6 +2,8 @@
 layout: default
 ---
 <div class="post">
-<h1 class="title"><a href="{{ page.url }}">{{ page.title }} <small>{{page.date | date_to_string}}</small></a></h1>
+<h1 class="title"><a href="{{ page.url }}"> 
+{% if page.custom_title %}{{ page.custom_title }}{% else %}{{ page.title }}{% endif %} 
+<small>{{page.date | date_to_string}}</small></a></h1>
 <div class="content">{{ content }}</div>
 </div>
