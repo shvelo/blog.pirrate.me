@@ -119,7 +119,7 @@ pre {
 }
 
 #container #content .post {
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
 }
 
 #container #content .posts .post {
@@ -187,6 +187,11 @@ pre {
 #container #content .post .more {
   display: block;
   margin-top: .3em;
+}
+
+#disqus_thread {
+  padding: .4em 0;
+  border-bottom: 2px solid rgba(0,49,79,.08);
 }
 
 #container #footer {

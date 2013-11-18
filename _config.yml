@@ -8,3 +8,5 @@ markdown: maruku
 baseurl: /
 url: http://blog.pirrate.me
 excerpt_separator: "<!--more-->"
+
+disqus_shortname: pirrate

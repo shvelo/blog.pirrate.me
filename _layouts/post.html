@@ -6,4 +6,15 @@ layout: default
 {% if page.custom_title %}{{ page.custom_title }}{% else %}{{ page.title }}{% endif %} 
 <small>{{page.date | date_to_string}}</small></a></h1>
 <div class="content">{{ content }}</div>
+
+<div id="disqus_thread"></div>
+<script>
+var disqus_shortname = "{{ site.disqus_shortname }}";
+var disqus_title = "{{ page.title }}";
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
 </div>
