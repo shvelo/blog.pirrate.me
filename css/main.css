@@ -38,17 +38,9 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Freebooter Regular", sans-serif;
-  margin-top: .1em;
-  margin-bottom: .1em;
+  margin-top: .2em;
+  margin-bottom: .2em;
 }
-
-h1 { font-size: 2.6em; }
-h2 { font-size: 2.4em }
-h3 { font-size: 2.2em }
-h4 { font-size: 1.8em }
-h5 { font-size: 1.4em }
-h6 { font-size: 1.4em }
 
 pre {
   padding: 1em;
@@ -127,9 +119,11 @@ pre {
 }
 
 #container #content .post .title {
+  font-family: "Freebooter Regular", sans-serif;
   margin-top: .1em;
   margin-bottom: .1em;
   text-align: center;
+  font-size: 2.6em;
 }
 
 #container #content .post .title a {
@@ -150,6 +144,10 @@ pre {
 
 #container #content .post .content p {
   margin: 0;
+}
+
+#container #content .post .content img {
+  margin: .3em 0;
 }
 
 #container #content .post .content blockquote {
@@ -185,8 +183,8 @@ pre {
 }
 
 #container #content .post .more {
-  display: block;
-  margin-top: .3em;
+  float: left;
+  font-weight: bold;
 }
 
 #disqus_thread {

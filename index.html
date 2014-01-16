@@ -10,10 +10,12 @@ title: Captain's Changelog
       <h1 class="title"><a href="{{ post.url }}">
       {% if post.custom_title %}{{ post.custom_title }}{% else %}{{ post.title }}{% endif %} 
       <small>{{post.date | date_to_string}}</small></a></h1>
-      <div class="content">{{ content[0] }}</div>
-      {% if content[1] %}
-      <a class="more" href="{{ post.url }}">Keep reading</a>
-      {% endif %}
+      <div class="content hasmore">
+        {{ content[0] }}
+        {% if content[1] %}
+        <a class="more" href="{{ post.url }}">Read more&hellip;</a>
+        {% endif %}
+      </div>
     </div>
     {% endfor %}
 </div>
