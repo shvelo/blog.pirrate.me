@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hello World!"
+published: true
 ---
 
 Hello World! I'll get blogging soon!
