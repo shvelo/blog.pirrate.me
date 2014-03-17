@@ -272,19 +272,3 @@ pre {
     text-align: center;
   }
 }
-
-@media (max-width: 35em) {
-  body {
-    font-size: 11pt;
-  }
-
-  #container #header h1 {
-    font-size: 3.5em;
-  }
-}
-
-@media (max-width: 27em) {
-  body {
-    font-size: 10pt;
-  }
-}
