@@ -242,10 +242,6 @@ pre {
 }
 
 @media (max-width: 45em) {
-  body {
-    font-size: 13pt;
-  }
-
   #container #header h1 {
     font-size: 3.7em;
   }
@@ -270,5 +266,11 @@ pre {
     font-size: 120%;
     font-weight: bold;
     text-align: center;
+  }
+}
+
+@media (max-width: 35em) {
+  #container #header h1 {
+    font-size: 3em;
   }
 }
