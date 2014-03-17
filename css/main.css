@@ -1,3 +1,5 @@
+@import url('//brick.a.ssl.fastly.net/Open+Sans:400');
+
 @font-face {
   font-family: "Freebooter Regular";
   src: url("../font/Freebooter Regular.ttf");
@@ -15,7 +17,6 @@ html, body {
 
 html {
   height: 100%;
-  background: #fffef0;
 }
 
 body {
@@ -119,11 +120,11 @@ pre {
 }
 
 #container #content .post .title {
-  font-family: "Freebooter Regular", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-top: .1em;
   margin-bottom: .1em;
   text-align: center;
-  font-size: 2.6em;
+  font-size: 2em;
 }
 
 #container #content .post .title a {
