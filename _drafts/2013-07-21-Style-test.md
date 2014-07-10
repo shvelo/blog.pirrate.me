@@ -19,7 +19,7 @@ Paragraph
 ## Heading 2
 
 Paragraph  
-![This is an image](http://blog.pirrate.me/images/pirate.png "Pirate")
+![This is an image](http://blog.pirrate.me/img/pirate.png "Pirate")
 
 ### Heading 3
 

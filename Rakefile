@@ -1,4 +1,5 @@
 task :default do |t|
+	exec "bundle exec jekyll"
 end
 
 task :new do |t|
