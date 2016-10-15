@@ -2,7 +2,6 @@ name: Captain's Changelog
 description: Scrawlins o' Cap'n Nick Shvelidze
 highlighter: 'pygments'
 timezone: Asia/Tbilisi
-relative_permalinks: true
 permalink: /:year/:title
 markdown: kramdown
 baseurl: /
